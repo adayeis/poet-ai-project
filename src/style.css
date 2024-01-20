@@ -1,0 +1,90 @@
+body {
+  background-image: url(../img/heart.svg);
+  background-repeat: repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+main {
+  margin: 80px auto;
+  max-width: 600px;
+  padding: 20px 20px 0 20px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(124, 14, 14);
+  font-weight: 900;
+}
+
+label,
+input {
+  display: block;
+  margin: 10px auto;
+
+  text-align: center;
+  padding: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+label {
+  font-size: 22px;
+  color: rgb(124, 14, 14);
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  border: solid 0.5px red;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  width: 80%;
+}
+
+input[type="submit"] {
+  border: solid 0.5px rgba(124, 14, 14);
+  background-color: rgba(190, 9, 9, 0.8);
+  color: rgb(124, 14, 14);
+  width: 83%;
+  border-radius: 8px;
+}
+
+section {
+  margin: 30px auto;
+  max-width: 82%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+footer {
+  margin: 60px auto 10px;
+  max-width: 82%;
+  font-size: 11px;
+  font-family: monospace;
+  text-align: center;
+  border-top: solid 0.5px black;
+  padding-top: 8px;
+}
+
+@media (max-width: 450px) {
+  label {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  section {
+    font-size: 14px;
+  }
+  footer {
+    font-size: 10px;
+  }
+}
