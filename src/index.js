@@ -8,6 +8,14 @@ function displayPoem(response) {
 }
 
 function generatePoem(event) {
+  new Typewriter("#poem", {
+    strings: [`...`],
+    autoStart: true,
+    cursor: "",
+    loop: true,
+    delay: 5,
+  });
+
   event.preventDefault();
   let messageElement = document.querySelector("#user-love-message");
   let apiKey = "67ct2f0dc4c74e3fcab1f74do85ff4a4";
