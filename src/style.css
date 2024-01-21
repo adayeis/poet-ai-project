@@ -88,6 +88,14 @@ footer {
   padding-top: 8px;
 }
 
+a {
+  all: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: rgb(124, 14, 14);
+  font-weight: 600;
+}
+
 @media (max-width: 450px) {
   label {
     font-size: 16px;
