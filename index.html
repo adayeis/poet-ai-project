@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Poet AI</title>
   </head>
@@ -12,7 +13,7 @@
         <h1>Your Love Poem!</h1>
       </header>
 
-      <form>
+      <form id="love-form">
         <label for="topic">Tell us how desperately in love you are...</label>
         <input
           type="text"
@@ -24,7 +25,7 @@
         />
         <input type="submit" />
       </form>
-      <section class="poem-seciton">Your love poem will be here!</section>
+      <section class="poem-seciton" id="poem"></section>
       <footer>The AI project was coded by 👩🏻‍💻 <strong>Ada Yeis</strong></footer>
     </main>
 
