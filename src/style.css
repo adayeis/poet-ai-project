@@ -24,6 +24,10 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  color: rgb(124, 14, 14);
+}
+
 label,
 input {
   display: block;
